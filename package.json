@@ -1,0 +1,22 @@
+{
+  "name": "etl",
+  "version": "0.0.1",
+  "description": "ETL service for csv parsing and operating it in database",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/romakv4/ETL.git"
+  },
+  "keywords": [
+    "ETL"
+  ],
+  "author": "romakv4",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/romakv4/ETL/issues"
+  },
+  "homepage": "https://github.com/romakv4/ETL#readme"
+}
