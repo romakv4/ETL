@@ -4,6 +4,8 @@
   "description": "ETL service for csv parsing and operating it in database",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
+    "parsing-example": "node parserUsingExample.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -18,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/romakv4/ETL/issues"
   },
-  "homepage": "https://github.com/romakv4/ETL#readme"
+  "homepage": "https://github.com/romakv4/ETL#readme",
+  "dependencies": {
+    "csv-parser": "^2.3.2"
+  }
 }
