@@ -1,5 +1,5 @@
 const mongoConnectionConfig = {
-  uri: 'mongodb://localhost:27017/ETL',
+  uri: 'mongodb://mongo:27017/ETL',
   options: {
     useNewUrlParser: true,
     useUnifiedTopology: true,
