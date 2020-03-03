@@ -1,6 +1,7 @@
 /* eslint-disable no-console */
 const express = require('express');
 require('dotenv').config();
+// TODO: install this dependency to project for warning remove
 // eslint-disable-next-line import/no-extraneous-dependencies
 const bodyParser = require('body-parser');
 const cors = require('cors');
