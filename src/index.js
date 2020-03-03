@@ -1,8 +1,5 @@
-/* eslint-disable no-console */
 const express = require('express');
 require('dotenv').config();
-// TODO: install this dependency to project for warning remove
-// eslint-disable-next-line import/no-extraneous-dependencies
 const bodyParser = require('body-parser');
 const cors = require('cors');
 const { mongoConnect } = require('./connect');
@@ -22,8 +19,10 @@ app.use(router);
 const server = app.listen(serverPort, async () => {
   try {
     await mongoConnect(mongoConnectionConfig);
+    // eslint-disable-next-line no-console
     console.log(`Server started at http://localhost:${serverPort}`);
   } catch (error) {
+    // eslint-disable-next-line no-console
     console.log(`Start server error: ${error}`);
   }
 });
